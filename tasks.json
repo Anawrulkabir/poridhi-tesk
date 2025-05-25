@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Jane Doe",
+        "task_name": "API Integration",
+        "task_updates": [
+            "Designed schema",
+            "Implemented GET endpoint"
+        ],
+        "repo_link": "https://github.com/janedoe/project"
+    },
+    {
+        "name": "John Smith",
+        "task_name": "Frontend UI",
+        "task_updates": [
+            "Implemented login page",
+            "Styled navbar",
+            "Fixed button alignment"
+        ],
+        "repo_link": "https://github.com/johnsmith/ui-project"
+    },
+    {
+        "name": "Alice Wonderland",
+        "task_name": "Database Design",
+        "task_updates": [
+            "Defined schema",
+            "Created migration scripts"
+        ],
+        "repo_link": "https://gitlab.com/alicew/db-project"
+    },
+    {
+        "name": "Test Intern 1",
+        "task_name": "Feature Development",
+        "task_updates": [
+            {
+                "text": "Initial commit of feature X",
+                "link": "https://github.com/your-repo/commit/abc123xyz"
+            },
+            {
+                "text": "Added unit tests for core logic",
+                "link": "https://github.com/your-repo/commit/def456uvw"
+            },
+            {
+                "text": "Documentation draft",
+                "link": ""
+            }
+        ],
+        "repo_link": "https://github.com/your-repo/project-alpha"
+    },
+    {
+        "name": "Test Intern 2",
+        "task_name": "Bug Fixing",
+        "task_updates": [
+            {
+                "text": "Identified bug #123",
+                "link": "https://github.com/your-repo/issues/123"
+            },
+            {
+                "text": "Pushed fix for bug #123",
+                "link": "https://github.com/your-repo/pull/55"
+            }
+        ],
+        "repo_link": "https://github.com/your-repo/project-beta"
+    }
+]
