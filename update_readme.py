@@ -3,7 +3,7 @@ import re
 from urllib.parse import urlparse # Added for URL parsing
 
 API_URL = "https://poridhi-tesk.vercel.app/get_tasks" # Make sure this is your deployed API URL if not running locally
-README_PATH = "https://github.com/poridhioss/20-Batch-task-interns-updates/blob/main/readme.md" # Use relative path for GitHub Actions
+README_PATH = "readme.md" # Use relative path for GitHub Actions
 
 # Placeholder comments in your README
 README_TABLE_START_COMMENT = "<!-- DYNAMIC_TABLE_START -->"
