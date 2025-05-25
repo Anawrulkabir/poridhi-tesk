@@ -2,7 +2,7 @@ import requests
 import re
 from urllib.parse import urlparse # Added for URL parsing
 
-API_URL = "http://127.0.0.1:5000/get_tasks" # Make sure this is your deployed API URL if not running locally
+API_URL = "https://poridhi-tesk.vercel.app/get_tasks" # Make sure this is your deployed API URL if not running locally
 README_PATH = "/Users/anawrulkabirfahad/Desktop/Poridhi/Poridhi OSS/task-update/readme.md"
 
 # Placeholder comments in your README
