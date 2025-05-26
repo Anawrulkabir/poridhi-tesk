@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS # Import CORS
 import os
 import psycopg2 # For PostgreSQL
 import psycopg2.extras # To get results as dictionaries
@@ -8,6 +9,7 @@ from dotenv import load_dotenv # Import load_dotenv
 load_dotenv() # Load environment variables from .env file
 
 app = Flask(__name__)
+CORS(app) # Enable CORS for all routes and origins by default
 
 # DATABASE_URL should be set as an environment variable in your hosting environment (e.g., Vercel)
 # Example: postgresql://user:password@host:port/database
